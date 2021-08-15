@@ -16,6 +16,6 @@ class AnonymousSurvey():
 
     def show_result(self):
         """Displays the result of surveys"""
-        print("Survey results are:\n")
+        print("Survey results are:")
         for result in self.response:
             print(f"-{result}")
